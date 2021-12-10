@@ -1,0 +1,27 @@
+@* @model List<ObjetoEscuelaBase> *@
+<table Class="table table-dark table-hover">
+
+    <thead>
+        <tr>
+            <th scope="col">
+                Nombre
+            </th>
+            <th scope="col">
+                Id
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var alumno in Model)
+        {
+            <tr>
+                <td>
+                    @alumno.Nombre
+                </td>
+                <td>
+                    @alumno.Id
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
