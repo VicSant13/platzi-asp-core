@@ -1,6 +1,20 @@
-@* @model List<ObjetoEscuelaBase> *@
-<table Class="table table-dark table-hover">
+@*@model List<ObjetoEscuelaBase>*@
 
+@{
+    var controller = ViewBag.Controller;
+}
+<div class="row">
+
+    <div class="col-md-6">
+        <a asp-controller=@controller
+            asp-action="create"                       
+            class="btn btn-success btn-sm ml-2">
+            Nuevo
+        </a>
+    </div>
+</div>
+    
+<table Class="table table-dark table-hover">
     <thead>
         <tr>
             <th scope="col">
@@ -8,6 +22,9 @@
             </th>
             <th scope="col">
                 Id
+            </th>
+            <th scope="col">
+                Acciones
             </th>
         </tr>
     </thead>
@@ -20,6 +37,26 @@
                 </td>
                 <td>
                     @alumno.Id
+                </td>
+                <td>
+                    <a asp-controller=@controller
+                       asp-action="index"
+                       asp-route-id=@alumno.Id
+                       class="btn btn-secondary btn-sm ml-2">
+                        Detalles
+                    </a>
+                    <a asp-controller=@controller
+                       asp-action="edit"
+                       asp-route-id=@alumno.Id
+                       class="btn btn-info btn-sm ml-2">
+                        Editar
+                    </a>
+                    <a asp-controller=@controller
+                       asp-action="delete"
+                       asp-route-id=@alumno.Id
+                       class="btn btn-danger btn-sm ml-2">
+                        Eliminar
+                    </a>
                 </td>
             </tr>
         }

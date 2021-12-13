@@ -15619,6 +15619,11 @@
   "RootNamespace": "HolaMundo",
   "Documents": [
     {
+      "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Alumno\\create.cshtml",
+      "TargetPath": "Views\\Alumno\\create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Alumno\\MultiAlumno.cshtml",
       "TargetPath": "Views\\Alumno\\MultiAlumno.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15656,11 @@
     {
       "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Shared\\ObjetoEscuelaSimple.cshtml",
       "TargetPath": "Views\\Shared\\ObjetoEscuelaSimple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Alumno\\edit.cshtml",
+      "TargetPath": "Views\\Alumno\\edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15689,6 +15699,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Curso\\edit.cshtml",
+      "TargetPath": "Views\\Curso\\edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Alumno\\Index.cshtml",
       "TargetPath": "Views\\Alumno\\Index.cshtml",
       "FileKind": "mvc"
@@ -15696,6 +15711,16 @@
     {
       "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Asignatura\\MultiAsignatura.cshtml",
       "TargetPath": "Views\\Asignatura\\MultiAsignatura.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Asignatura\\edit.cshtml",
+      "TargetPath": "Views\\Asignatura\\edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Documents and Settings\\vsant\\Mis documentos\\cursos\\aspcore\\HolaMundo\\Views\\Asignatura\\create.cshtml",
+      "TargetPath": "Views\\Asignatura\\create.cshtml",
       "FileKind": "mvc"
     },
     {

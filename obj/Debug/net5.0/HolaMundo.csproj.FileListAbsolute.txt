@@ -80,3 +80,8 @@ C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\bin\Debu
 C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Curso\Index.cshtml.g.cs
 C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Curso\MultiCurso.cshtml.g.cs
 C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Curso\create.cshtml.g.cs
+C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Curso\edit.cshtml.g.cs
+C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Asignatura\create.cshtml.g.cs
+C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Asignatura\edit.cshtml.g.cs
+C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Alumno\create.cshtml.g.cs
+C:\Documents and Settings\vsant\Mis documentos\cursos\aspcore\HolaMundo\obj\Debug\net5.0\Razor\Views\Alumno\edit.cshtml.g.cs

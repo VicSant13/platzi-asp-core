@@ -1,0 +1,26 @@
+@model Alumno
+@{
+    ViewData["Title"] = "Actualización de alumno";
+    Layout = "Simple";
+}
+
+<div asp-validation-summary="All"></div>
+<form method="POST">
+    <div>
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre"/>
+    </div>
+    <div>
+        <label asp-for="CursoId"></label>
+   
+            @Html.DropDownList(
+            "CursoId", 
+            @ViewBag.Cursos, 
+            "Seleccione...", 
+            new {@class = "form-control"}
+        )
+    </div>
+    <input type="submit"/>
+</form>
+
+<i>@ViewBag.Fecha</i>
